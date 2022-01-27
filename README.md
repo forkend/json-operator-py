@@ -7,6 +7,12 @@ Currently json-operator supports 4 operations: equal, intersection, union, subtr
 
 <!-- more -->
 
+# Installation
+
+```commandline
+$ pip install json-operator
+```
+
 # Embedded examples
 
 json-operator can be embedded into your program as a library.
