@@ -1,0 +1,14 @@
+{
+  "left": {
+    "age": 3,
+    "name": "a",
+    "hobs": ["math", "eng"]
+  },
+  "op": "equal",
+  "right": {
+    "age": 3,
+    "hobs": ["eng", "math", "ph"],
+    "name": "a"
+  },
+  "result":false
+}

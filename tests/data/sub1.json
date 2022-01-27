@@ -1,0 +1,29 @@
+{
+  "left": {
+    "name": "a",
+    "age": [1,2],
+    "addr": {
+      "country": "china",
+      "city": "shanghai"
+    },
+    "scores": [
+      {"c": "mad", "g": 85},
+      {"c": "eng", "g": 80},
+      {"c": "math", "g": 73}
+    ]
+  },
+  "op": "subtract",
+  "right": {
+    "name": "a",
+    "age": [3,2],
+    "addr": {
+      "country": "china",
+      "city": "beijing"
+    },
+    "scores": [
+      {"c": "eng", "g": 80},
+      {"c": "math", "g": 70}
+    ]
+  },
+  "result": {"age": [1], "addr": {"city": "shanghai"}, "scores": [{"c": "mad", "g": 85}, {"c": "math", "g": 73}]}
+}

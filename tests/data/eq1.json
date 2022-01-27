@@ -1,0 +1,10 @@
+{
+  "left": {
+    "name": "a"
+  },
+  "op": "equal",
+  "right": {
+    "name": "a"
+  },
+  "result":true
+}

@@ -1,0 +1,38 @@
+{
+  "left": {
+    "age": 3,
+    "name": "a",
+    "hobs": ["math", "eng"],
+    "grades": [
+      {
+        "eng": 95,
+        "chi": 82,
+        "mat": 97
+      },
+      {
+        "eng": 59,
+        "chi": 82,
+        "mat": 28
+      }
+    ]
+  },
+  "op": "equal",
+  "right": {
+    "age": 3,
+    "hobs": ["eng", "math"],
+    "name": "a",
+    "grades": [
+      {
+        "mat": 28,
+        "eng": 59,
+        "chi": 82
+      },
+      {
+        "chi": 82,
+        "eng": 95,
+        "mat": 96
+      }
+    ]
+  },
+  "result":false
+}
